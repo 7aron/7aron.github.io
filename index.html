@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Website</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/logo2.png"/>
+</head>
+<body>
+	<a name="home">
+<!--- Start Navigation -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--- For Navigation -->
+
+
+     <div class="nav-outer">
+				<div class="nav-wrap">
+						<nav class="nagitation">
+							<div class="logo"><img class="logoimg" src="img/logo2.png" /></div>
+							 <div class='nav' nav-menu-style="yoga">
+								<ul class="nav-menu">
+									<li><a style="text-decoration:none" class="menu-s" href="#home">Home</a></li>
+									<li><a style="text-decoration:none" class="menu-s" href="#about">About</a></li>
+									<li><a style="text-decoration:none" class="menu-s" href="#services">Services</a></li>
+									<li><a style="text-decoration:none" class="menu-s" href="#reviews">Reviews</a></li>
+									<li><a style="text-decoration:none" class="menu-s" href="#contact">Contact</a></li>
+								</ul>
+							</div>
+						</nav>
+				</div>
+		 </div>
+	<div class="nav-clear"></div>
+<!--- End Navigation -->
+	<div class="clearfix"></div>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+<!--ADD IMAGE SLIDES HERE-->
+    		<section class="slider">
+    				<ul class="slider1">
+							<li><img src="img/komp.jpg" /></li>
+    						<li><img src="img/komp.jpg" /></li>
+								<li><img src="img/komp.jpg" /></li>
+    				</ul>
+    		</section>
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<a name="about">
+	<!-- Start Banner -->
+	<div id="banner-wrapper">
+		<h1>Welcome To My Website</h1>
+		<div class="one-half">
+				<h3>Heading Title Section</h3>
+				<p>The Responsive Parallax website tutorial with HTML5 and CSS3 uses a fixed background image with CSS to give the parallax scrolling effect as website visitors navigate through the website.  This tutorial includes a jQuery menu that will have a single-column drop down effect when the website sizes down to the tablet type device withs such as the iPad.  Also in the website is an image slider using a jQuery plugin called the “BX-Slider”</p>
+		</div>
+		 <div class="one-half">
+		 		<h3>Heading Title Section</h3>
+				<p>The Responsive Parallax website tutorial with HTML5 and CSS3 uses a fixed background image with CSS to give the parallax scrolling effect as website visitors navigate through the website.  This tutorial includes a jQuery menu that will have a single-column drop down effect when the website sizes down to the tablet type device withs such as the iPad.  Also in the website is an image slider using a jQuery plugin called the “BX-Slider”</p>
+		 </div>
+	</div>
+	<!-- ENd banner Wrapper -->
+	<div class="clearfix"></div>
+	<!-- Start Parallax Section -->
+		<section class="parallax-1">
+			  <div class="parallax-inner">
+			  		<section class="one-third">
+			  				<h3>Heading Title</h3>
+								<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s.</p>
+			  		</section>
+						<section class="one-third">
+			  				<h3>Heading Title</h3>
+								<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s.</p>
+			  		</section>
+						<section class="one-third">
+			  				<h3>Heading Title</h3>
+								<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s.</p>
+			  		</section>
+			  </div>
+		</section>
+	<!-- End Parallax Section -->
+	<a name="services">
+	<div class="clearfix"></div>
+<!-- Start Banner Wrapper  -->
+			<section class="left-col">
+				<h1>Heading Title Text</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies lorem ac tortor pellentesque, ultricies blandit ex scelerisque. Pellentesque vel metus id purus feugiat venenatis id pharetra sem. Nullam dapibus facilisis mi sit amet tempor. Ut luctus diam vitae urna laoreet ullamcorper. Suspendisse ultricies fermentum quam vitae tincidunt. Sed molestie nisi ut tempus pharetra.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies lorem ac tortor pellentesque, ultricies blandit ex scelerisque. Pellentesque vel metus id purus feugiat venenatis id pharetra sem. Nullam dapibus facilisis mi sit amet tempor. Ut luctus diam vitae urna laoreet ullamcorper. Suspendisse ultricies fermentum quam vitae tincidunt. Sed molestie nisi ut tempus pharetra.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies lorem ac tortor pellentesque, ultricies blandit ex scelerisque. Pellentesque vel metus id purus feugiat venenatis id pharetra sem. Nullam dapibus facilisis mi sit amet tempor. Ut luctus diam vitae urna laoreet ullamcorper. Suspendisse ultricies fermentum quam vitae tincidunt. Sed molestie nisi ut tempus pharetra.</p>
+			</section>
+			<section class="sidebar">
+					<img src="img/komp1.jpg" alt="">
+			</section>
+<!-- End Banner Wrapper -->
+<div class="clearfix"></div>
+<!-- Start Parallax Section -->
+<a name="reviews">
+	<section class="parallax-2">
+			<div class="parallax-inner">
+					<section class="one-third">
+							<h3>Heading Title</h3>
+							<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s.</p>
+					</section>
+					<section class="one-third">
+							<h3>Heading Title</h3>
+							<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s.</p>
+					</section>
+					<section class="one-third">
+							<h3>Heading Title</h3>
+							<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s.</p>
+					</section>
+			</div>
+	</section>
+<!-- End Parallax Section -->
+<div class="clearfix"></div>
+<!-- Start Banner Wrapper -->
+	<div id="banner-wrapper">
+			<h1>Full Width Heading Title Section</h1>
+			<section class="one-third">
+				<img src="img/komp.jpg" alt="">
+					<h3>Heading Title Text</h3>
+						<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s</p>
+			</section>
+			<section class="one-third">
+				<img src="img/komp.jpg" alt="">
+					<h3>Heading Title Text</h3>
+						<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s</p>
+			</section>
+			<section class="one-third">
+				<img src="img/komp.jpg" alt="">
+					<h3>Heading Title Text</h3>
+						<p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since th 1500s</p>
+			</section>
+	</div>
+	<a name="contact">
+<!-- End Banner Wrapper  -->
+<div class="clearfix"></div>
+<footer>
+	<p>&copy; 2017-2018. All rights reserved | Made with  <i class="srtik">&hearts;</i> by TiSec.</p>
+</footer>
+</body>
+</html>
